@@ -44,6 +44,7 @@ class App extends Component {
              <RaisedButton label="Submit" primary={true} style={style} onClick={(event) => this.handleClick(event)}/>
 
              <RaisedButton label="Register" primary={true} style={style} onclick={(event) => this.registration(event)}/>
+             
          </div>
          </MuiThemeProvider>
       </div>
